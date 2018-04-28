@@ -16,4 +16,11 @@ public class CommonDateUtil {
 	public void getNowDate(Context mContext){
 		ToastUtil.show(mContext,"okokok");
 	}
+	public void getExit(Context mContext){
+		ToastUtil.show(mContext,"退出");
+	}
+
+	public String getOk(){
+		return "xxxxx";
+	}
 }
